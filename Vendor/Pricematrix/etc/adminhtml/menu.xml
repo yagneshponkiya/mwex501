@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Vendor_Pricematrix::main" 
+             parent="Magento_Catalog::catalog" 
+             module="Vendor_Pricematrix" 
+             title="Price Matrix" 
+             sortOrder="100" 
+             resource="Vendor_Pricematrix::main"
+             action="pricematrix/price" />
+     
+    </menu>
+</config>
